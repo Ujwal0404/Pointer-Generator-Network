@@ -47,7 +47,7 @@ pip install -e .
 pyrouge_set_rouge_path </absolute/path/to/ROUGE-1.5.5/directory>
 python -m pyrouge.test
 
-##############################################################################################################################
+#################################################
 ----------------
 create eval.py
 ----------------
@@ -70,7 +70,7 @@ ______________
 python -m eval
 ______________
 
-################################################################################################################################
+###################################################
 
 Please remember we need to copy the rouge-1.5.5 and keep it in pyrouge folder.
 
@@ -78,6 +78,7 @@ If you don’t have then download the pyrouge from https://github.com/andersjo/p
 
 
 ####How to create the data set####
+
 Please change the script file "make_datafiles.py" in cnn-dailymail and then run it with python3.Present in the main folder.
 It will create the story and bin files.As we had lot of data and becuase of lack of resources we have modified the script to get the bin files only for the cnn.
 

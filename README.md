@@ -55,8 +55,8 @@ create eval.py
 from pyrouge import Rouge155
 r = Rouge155()
 # set directories
-r.system_dir = "/home/kunal/Documents/Text_Summarizer/logs/testExperiment_1/decode_val_400maxenc_4beam_35mindec_100maxdec_ckpt-50064/decoded/"
-r.model_dir = "/home/kunal/Documents/Text_Summarizer/logs/testExperiment_1/decode_val_400maxenc_4beam_35mindec_100maxdec_ckpt-50064/reference/"
+r.system_dir = "/home/ujwal/Documents/Text_Summarizer/logs/testExperiment_1/decode_val_400maxenc_4beam_35mindec_100maxdec_ckpt-50064/decoded/"
+r.model_dir = "/home/ujwal/Documents/Text_Summarizer/logs/testExperiment_1/decode_val_400maxenc_4beam_35mindec_100maxdec_ckpt-50064/reference/"
 
 #define the patterns
 r.system_filename_pattern = "(\d+)_decoded.txt"

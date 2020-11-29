@@ -1,6 +1,6 @@
 # Text Summerization using Pointer Generator Network
 
-Get To The Point: Summarization with Pointer-Generator Networks](https://arxiv.org/abs/1704.04368)*.)
+Get To The Point: Summarization with Pointer-Generator Networks(https://arxiv.org/abs/1704.04368)
 
 
 Steps to run the pertained model on the dataset

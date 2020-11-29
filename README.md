@@ -1,5 +1,8 @@
 # Text Summerization using Pointer Generator Network
 
+Get To The Point: Summarization with Pointer-Generator Networks](https://arxiv.org/abs/1704.04368)*.)
+
+
 Steps to run the pertained model on the dataset
 
 1). Download the finished dataset from the link shared below.
@@ -82,7 +85,7 @@ If you don’t have then download the pyrouge from https://github.com/andersjo/p
 Please change the script file "make_datafiles.py" in cnn-dailymail and then run it with python3.Present in the main folder.
 It will create the story and bin files.As we had lot of data and becuase of lack of resources we have modified the script to get the bin files only for the cnn.
 
-####Fuure Work####
+####Future Work####
 1) Would create a docker image for the training and evaluation process.
 2) Would upgrade the code to tensorflow 2 and above for less compatibility issues.
 3) Hyper-parameter tuning the model for better results.
